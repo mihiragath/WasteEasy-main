@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 const wasteDumpedSchema = new mongoose.Schema({
-    
     wasteNameByAi: {
         type: String,
     },
